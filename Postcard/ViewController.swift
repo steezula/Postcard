@@ -32,6 +32,8 @@ class ViewController: UIViewController {
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
+        //Code will evalutate the button press
+        //Test
         
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
